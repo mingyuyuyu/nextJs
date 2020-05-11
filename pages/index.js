@@ -1,1 +1,4 @@
-export default () => <div>Welcome to next.js!</div>
+import { Button } from 'antd'
+import Comp from '../components/comp'
+
+export default () => <Comp><Button>index</Button></Comp>
